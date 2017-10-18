@@ -111,4 +111,8 @@ typeof define=="function"&&typeof define.amd=="object"&&define.amd?(zt._=Dt, def
 //
 var divs = $('.team-member');
 
-alert('foo' + divs.length);
+_.each(divs,function (a) {
+  console.log(a);
+})
+
+//alert('foo' + divs.length);
